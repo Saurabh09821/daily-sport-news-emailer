@@ -1,0 +1,8 @@
+POST http://localhost:5000/subscribe
+Content-Type: application/json
+
+{
+  "name": "Jane",
+  "email": "jane@example.com",
+  "preferences": ["Cricket", "Football"]
+}
